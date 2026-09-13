@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ivory: #f6f1e8;
+  --paper: #fbf7f0;
+  --mist: #e4dfd4;
+  --ink: #1b2430;
+  --mute: #5b6572;
+  --teal: #1e6e63;
+  --violet: #534178;
+  --navy: #101a28;
+  --glass: rgba(255, 252, 247, 0.58);
+}
+
+html, body, #root { min-height: 100%; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(83, 65, 120, 0.08), transparent 55%),
+    radial-gradient(900px 500px at 110% 0%, rgba(30, 110, 99, 0.09), transparent 50%),
+    var(--ivory);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+  z-index: 50;
+}
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(27, 36, 48, 0.08);
+  box-shadow: 0 12px 40px rgba(27, 36, 48, 0.06);
+}
+.env-overview { background: linear-gradient(180deg, #fbf7f0 0%, #f3eee4 100%); }
+.env-factors {
+  background:
+    radial-gradient(800px 400px at 80% 10%, rgba(83,65,120,.14), transparent 50%),
+    linear-gradient(180deg, #eef1f6, #f6f1e8);
+}
+.env-stock { background: linear-gradient(180deg, #faf6ee, #efe8da); }
+.env-backtest { background: linear-gradient(180deg, #101a28 0%, #1a2740 55%, #f6f1e8 55.1%); color: inherit; }
+.env-risk { background: linear-gradient(165deg, #f6f1e8 0%, #f6f1e8 38%, #152033 38%, #152033 100%); }
+.env-portfolio { background: linear-gradient(180deg, #f8f4eb, #e7f0ec); }
+.env-report { background: #f3eadb; }
+
+.num { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+h1, h2, .display { font-family: Fraunces, Georgia, serif; }
+
+.up { color: #1f7a4d; }
+.down { color: #b42318; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #c9c2b4; border-radius: 8px; }

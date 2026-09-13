@@ -1,0 +1,1 @@
+Educational sample only. `universe.csv` is written when the database is seeded. Prices and factor scores live in SQLite (`database/research.db`) — they are a realistic historical-style lab tape, not a live vendor feed.

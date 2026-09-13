@@ -1,0 +1,76 @@
+ticker,name,sector,industry,country,exchange,description
+AAPL,Apple,Technology,Consumer Electronics,US,NASDAQ,Designs consumer devices and a services layer that now carries a large share of the earnings.
+MSFT,Microsoft,Technology,Software,US,NASDAQ,"Enterprise software, cloud infrastructure and a growing AI services mix."
+GOOGL,Alphabet,Communication,Internet,US,NASDAQ,Search advertising remains the cash engine; YouTube and cloud sit on top.
+AMZN,Amazon,Consumer Discretionary,E-commerce,US,NASDAQ,Retail scale plus AWS. Margins have widened as fulfilment efficiency improved.
+NVDA,NVIDIA,Technology,Semiconductors,US,NASDAQ,"Accelerators for training and inference. High growth, high multiple, high crowding."
+META,Meta Platforms,Communication,Social Media,US,NASDAQ,Advertising platform with Reality Labs as a long-duration option.
+AVGO,Broadcom,Technology,Semiconductors,US,NASDAQ,Custom silicon and infrastructure software. Cash conversion is the story.
+ORCL,Oracle,Technology,Enterprise Software,US,NYSE,Database franchise migrating toward cloud infrastructure.
+ADBE,Adobe,Technology,Software,US,NASDAQ,"Creative and document software; subscription economics, some AI disruption risk."
+CRM,Salesforce,Technology,Software,US,NYSE,CRM platform. Operating leverage has improved after a cost reset.
+INTC,Intel,Technology,Semiconductors,US,NASDAQ,Foundry rebuild in progress. Classic value/turnaround rather than quality.
+AMD,AMD,Technology,Semiconductors,US,NASDAQ,"CPU/GPU challenger. More cyclical than NVIDIA, cheaper on several screens."
+QCOM,Qualcomm,Technology,Semiconductors,US,NASDAQ,Mobile silicon plus licensing. Handset cycle still matters.
+CSCO,Cisco,Technology,Networking,US,NASDAQ,Networking hardware with a growing software mix. Defensive tech.
+IBM,IBM,Technology,IT Services,US,NYSE,"Hybrid cloud and consulting. Slow growth, decent cash return."
+JPM,JPMorgan Chase,Financials,Banks,US,NYSE,Diversified US bank. Rate cycles and credit quality drive the factor mix.
+BAC,Bank of America,Financials,Banks,US,NYSE,More deposit-sensitive than JPM. Value tilt when the curve steepens.
+GS,Goldman Sachs,Financials,Investment Banking,US,NYSE,Markets and asset management. Higher beta to risk appetite.
+V,Visa,Financials,Payments,US,NYSE,"Asset-light payment network. Quality compounder, rarely cheap."
+MA,Mastercard,Financials,Payments,US,NYSE,Similar to Visa with a slightly more international mix.
+JNJ,Johnson & Johnson,Healthcare,Pharma,US,NYSE,"Diversified healthcare. Low vol, modest growth, balance-sheet strength."
+UNH,UnitedHealth,Healthcare,Managed Care,US,NYSE,Scale insurer plus Optum. Policy risk is the main discount.
+PFE,Pfizer,Healthcare,Pharma,US,NYSE,"Post-COVID earnings reset. Cheap on earnings, pipeline is the debate."
+LLY,Eli Lilly,Healthcare,Pharma,US,NYSE,GLP-1 franchise. Growth factor in its purest recent form.
+ABBV,AbbVie,Healthcare,Pharma,US,NYSE,Humira cliff largely absorbed. Cash return name.
+XOM,Exxon Mobil,Energy,Integrated Oil,US,NYSE,"Integrated major. Value and commodity beta, not a quality screen favourite."
+CVX,Chevron,Energy,Integrated Oil,US,NYSE,Slightly more conservative capital return than XOM in most years.
+CAT,Caterpillar,Industrials,Machinery,US,NYSE,Late-cycle industrial. Capex and China construction still matter.
+HON,Honeywell,Industrials,Conglomerate,US,NASDAQ,Diversified industrial with aerospace and automation exposure.
+GE,GE Aerospace,Industrials,Aerospace,US,NYSE,Post-breakup aerospace pure play. Quality has improved with the mix.
+BA,Boeing,Industrials,Aerospace,US,NYSE,"Production and certification risk. High beta, weak quality screens."
+HD,Home Depot,Consumer Discretionary,Retail,US,NYSE,US housing-linked retailer. Quality with some cyclicality.
+NKE,Nike,Consumer Discretionary,Apparel,US,NYSE,Brand still valuable; recent growth has been uneven by region.
+SBUX,Starbucks,Consumer Discretionary,Restaurants,US,NASDAQ,Same-store sales and China traffic. Not the defensive name it used to be.
+TSLA,Tesla,Consumer Discretionary,Autos,US,NASDAQ,EV scale plus optionality. Factor scores swing with the multiple.
+F,Ford,Consumer Discretionary,Autos,US,NYSE,"Legacy auto. Cheap, levered, cyclical — a value trap risk case."
+GM,General Motors,Consumer Discretionary,Autos,US,NYSE,Similar to Ford with a larger EV spend debate.
+KO,Coca-Cola,Consumer Staples,Beverages,US,NYSE,"Global beverage brand. Low vol, modest growth, classic defensive."
+PEP,PepsiCo,Consumer Staples,Beverages,US,NASDAQ,Beverages plus snacks. Slightly more diversified than KO.
+WMT,Walmart,Consumer Staples,Retail,US,NYSE,US grocery scale. Quality has improved with e-commerce mix.
+COST,Costco,Consumer Staples,Retail,US,NASDAQ,"Membership model. Rarely cheap, usually high quality."
+PG,Procter & Gamble,Consumer Staples,Household,US,NYSE,"Brand portfolio. Defensive, low vol, limited growth."
+DIS,Disney,Communication,Media,US,NYSE,Parks plus streaming. Turnaround in profitability after the DTC spend.
+NFLX,Netflix,Communication,Streaming,US,NASDAQ,Streaming scale. Growth slowed; margins improved. Crowded momentum name at times.
+T,AT&T,Communication,Telecom,US,NYSE,"Post-Warner unwind. Yield, leverage, slow growth."
+VZ,Verizon,Communication,Telecom,US,NYSE,Wireless cash flow. Defensive but capital intensive.
+NEE,NextEra Energy,Utilities,Electric,US,NYSE,Regulated utility plus renewables development.
+DUK,Duke Energy,Utilities,Electric,US,NYSE,"Traditional regulated utility. Low vol, rate-base growth."
+LIN,Linde,Materials,Industrial Gases,US,NASDAQ,Industrial gases. Quality compounder with pricing power.
+AMT,American Tower,Real Estate,Towers,US,NYSE,"Tower REIT. Rate sensitive, long contracted cash flows."
+RELIANCE.NS,Reliance Industries,Energy,Conglomerate,IN,NSE,Oil-to-chemicals plus retail and Jio. India market-cap anchor.
+TCS.NS,Tata Consultancy,Technology,IT Services,IN,NSE,"Largest Indian IT services franchise. Quality, USD revenue mix."
+INFY.NS,Infosys,Technology,IT Services,IN,NSE,IT services. Slightly more cyclical deal wins than TCS.
+HDFCBANK.NS,HDFC Bank,Financials,Banks,IN,NSE,Private-sector quality bank. Premium multiple for a reason.
+ICICIBANK.NS,ICICI Bank,Financials,Banks,IN,NSE,Private bank with improving return ratios. Often cheaper than HDFC.
+SBIN.NS,State Bank of India,Financials,Banks,IN,NSE,PSU bank. Credit cycle and government ownership discount.
+BHARTIARTL.NS,Bharti Airtel,Communication,Telecom,IN,NSE,India wireless consolidation beneficiary.
+ITC.NS,ITC,Consumer Staples,FMCG,IN,NSE,"Cigarettes plus FMCG. Cash generation, slow re-rating debate."
+HINDUNILVR.NS,Hindustan Unilever,Consumer Staples,FMCG,IN,NSE,"India staple compounder. Quality, rarely cheap."
+LT.NS,Larsen & Toubro,Industrials,Engineering,IN,NSE,Infra and engineering. Capex-cycle exposure.
+MARUTI.NS,Maruti Suzuki,Consumer Discretionary,Autos,IN,NSE,India passenger-vehicle leader. Rural and urban mix.
+SUNPHARMA.NS,Sun Pharma,Healthcare,Pharma,IN,NSE,Specialty plus India formulations.
+AXISBANK.NS,Axis Bank,Financials,Banks,IN,NSE,Private bank. Credit costs still the swing factor.
+BAJFINANCE.NS,Bajaj Finance,Financials,NBFC,IN,NSE,Consumer finance compounder. Growth and valuation both rich.
+WIPRO.NS,Wipro,Technology,IT Services,IN,NSE,"IT services. Often the cheaper, slower-growth cousin of TCS/Infosys."
+ASIANPAINT.NS,Asian Paints,Materials,Paints,IN,NSE,"Pricing power in decorative paints. Quality, housing-linked."
+TITAN.NS,Titan,Consumer Discretionary,Jewellery,IN,NSE,Jewellery and watches. Discretionary India consumption.
+ULTRACEMCO.NS,UltraTech Cement,Materials,Cement,IN,NSE,India cement scale. Infra and housing cycle.
+NESTLEIND.NS,Nestle India,Consumer Staples,FMCG,IN,NSE,"Premium staple. High ROE, high multiple."
+POWERGRID.NS,Power Grid,Utilities,Transmission,IN,NSE,Regulated transmission. Defensive India utility.
+NTPC.NS,NTPC,Utilities,Electric,IN,NSE,Generation utility. Yield and regulated return.
+ONGC.NS,ONGC,Energy,E&P,IN,NSE,"Upstream oil. Commodity beta, government ownership."
+TATAMOTORS.NS,Tata Motors,Consumer Discretionary,Autos,IN,NSE,"JLR plus India CV/PV. Cyclical, improving mix."
+TATASTEEL.NS,Tata Steel,Materials,Steel,IN,NSE,"Steel cycle. Value when spreads are wide, painful when they are not."
+COALINDIA.NS,Coal India,Energy,Mining,IN,NSE,Volume and dividend story. Policy and volume risk.

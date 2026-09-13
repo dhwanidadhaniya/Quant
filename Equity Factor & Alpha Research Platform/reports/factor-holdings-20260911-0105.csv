@@ -1,0 +1,16 @@
+ticker,name,sector,score
+JPM,JPMorgan Chase,Financials,100.0
+ITC.NS,ITC,Consumer Staples,98.66666666666667
+LT.NS,Larsen & Toubro,Industrials,97.33333333333334
+INFY.NS,Infosys,Technology,96.0
+AMD,AMD,Technology,94.66666666666667
+NEE,NextEra Energy,Utilities,93.33333333333333
+CRM,Salesforce,Technology,92.0
+POWERGRID.NS,Power Grid,Utilities,90.66666666666666
+AMZN,Amazon,Consumer Discretionary,89.33333333333333
+KO,Coca-Cola,Consumer Staples,88.0
+ICICIBANK.NS,ICICI Bank,Financials,86.66666666666667
+QCOM,Qualcomm,Technology,85.33333333333334
+TITAN.NS,Titan,Consumer Discretionary,84.0
+ULTRACEMCO.NS,UltraTech Cement,Materials,82.66666666666667
+CSCO,Cisco,Technology,81.33333333333333
