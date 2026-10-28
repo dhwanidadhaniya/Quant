@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --void: #050308;
+  --pink: #ff2d95;
+  --cyan: #3dfff3;
+  --grid: rgba(255, 45, 149, 0.045);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: var(--void);
+  color: #ece8f0;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+    radial-gradient(1200px 600px at 80% -10%, rgba(225, 0, 255, 0.12), transparent 50%),
+    radial-gradient(900px 500px at 0% 100%, rgba(255, 45, 149, 0.08), transparent 45%);
+  background-size: 48px 48px, 48px 48px, auto, auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff2d9544;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(22, 16, 28, 0.78), rgba(10, 8, 14, 0.7));
+  border: 1px solid rgba(255, 45, 149, 0.18);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px);
+}
+
+.hairline {
+  border: 1px solid rgba(255, 45, 149, 0.16);
+}
+
+.kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8b8296;
+}
+
+.num {
+  font-family: "IBM Plex Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.bid {
+  color: #3dfff3;
+}
+.ask {
+  color: #ff2d95;
+}
+
+.scanline::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 3px,
+    rgba(0, 0, 0, 0.08) 4px
+  );
+  mix-blend-mode: multiply;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes flow-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes flow-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.flow-right {
+  animation: flow-right 2.8s linear infinite;
+}
+.flow-left {
+  animation: flow-left 2.2s linear infinite;
+}
+
+input[type="range"] {
+  appearance: none;
+  height: 2px;
+  background: linear-gradient(90deg, #3dfff3, #ff2d95);
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border: 2px solid #ff2d95;
+  border-radius: 0;
+}
